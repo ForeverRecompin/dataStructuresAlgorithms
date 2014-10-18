@@ -4,7 +4,7 @@ sort/
 	Bubble Sort|Incomplete
 	Insertion Sort|Complete
 	Quick Sort|Complete
-	Merge Sort|Incomplete
+	Merge Sort|Complete
 	Radix Sort|Incomplete
 	Shell Sort|Incomplete
 	Heap Sort|Incomplete
@@ -18,7 +18,7 @@ linkedLists/
 	Generalised Linked Lists|Incomplete
 stack/
 	Simple Stack|Complete
-	Simulation of Recursion (Factorial of a number)|Incomplete
+	Simulation of Recursion (Factorial of a number)|Complete
 	Infix To Postfix expression|Incomplete
 	Evaluation of a Postfix expression|Incomplete
 	Validity of Parenthesis|Incomplete
