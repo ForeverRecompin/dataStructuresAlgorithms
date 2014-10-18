@@ -19,7 +19,7 @@ linkedLists/
 stack/
 	Simple Stack|Complete
 	Simulation of Recursion (Factorial of a number)|Complete
-	Infix To Postfix expression|Incomplete
+	Infix To Postfix expression|Complete
 	Evaluation of a Postfix expression|Incomplete
 	Validity of Parenthesis|Incomplete
 queue/
