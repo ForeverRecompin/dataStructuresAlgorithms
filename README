@@ -1,31 +1,37 @@
-Algorithms included:
+Algorithms|Status
 sort/
-	Selection Sort
-	Bubble Sort
-	Insertion Sort
-	Quick Sort
-	Merge Sort
-	Radix Sort
-	Shell Sort
-	Heap Sort
+	Selection Sort|Incomplete
+	Bubble Sort|Incomplete
+	Insertion Sort|Complete
+	Quick Sort|Complete
+	Merge Sort|Incomplete
+	Radix Sort|Incomplete
+	Shell Sort|Incomplete
+	Heap Sort|Incomplete
 search/
-	Linear Search
-	Binary Search
+	Linear Search|Incomplete
+	Binary Search|Incomplete
+        Simple Hasing|Pending
 linkedLists/
-	Single Linked Lists
-	Doubly Linked Lists
-	Generalised Linked Lists
+	Single Linked Lists|Incomplete
+	Doubly Linked Lists|Complete
+	Generalised Linked Lists|Incomplete
 stack/
-	Simple Stack
-	Simulation of Recursion (Factorial of a number)
-	Infix To Postfix expression
-	Evaluation of a Postfix expression
+	Simple Stack|Complete
+	Simulation of Recursion (Factorial of a number)|Incomplete
+	Infix To Postfix expression|Incomplete
+	Evaluation of a Postfix expression|Incomplete
+	Validity of Parenthesis|Incomplete
 queue/
-	Simple Queue
-	Double Ended Queue
-	Circular Queue
-	Job Scheduling Problem (Roundrobin)
-	Josephus Problem
+	Simple Queue|Complete
+	Double Ended Queue|Incomplete
+	Job Scheduling Problem (Roundrobin and Circular 
+Queue)|Incomplete
+	Josephus Problem|Incomplete
+trees/
+	...
+graph/
+	...
 
 This repository contains everything I've learnt in my Data Structure 
 class.
