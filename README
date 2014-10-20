@@ -11,7 +11,7 @@ sort/
 search/
 	Linear Search|Incomplete
 	Binary Search|Incomplete
-        Simple Hasing|Pending
+        Simple Hashing|Pending
 linkedLists/
 	Single Linked Lists|Incomplete
 	Doubly Linked Lists|Complete
@@ -24,7 +24,7 @@ stack/
 	Validity of Parenthesis|Incomplete
 queue/
 	Simple Queue|Complete
-	Double Ended Queue|Incomplete
+	Double Ended Queue|Complete
 	Job Scheduling Problem (Roundrobin and Circular 
 Queue)|Incomplete
 	Josephus Problem|Incomplete
