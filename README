@@ -29,7 +29,7 @@ queue/
 Queue)|Incomplete
 	Josephus Problem|Incomplete
 trees/
-	BinarySearchTree: Insertion and Search|Complete
+	BinarySearchTree: Insertion,Search,Max/Min Element|Complete
 graph/
 	...
 

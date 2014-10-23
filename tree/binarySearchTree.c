@@ -12,11 +12,11 @@ struct binarySearchTree * insert(struct binarySearchTree *,int);int search(struc
 
 int main(void)
 {
-	int choice,menu,dataIn,key,result=0;
+	int choice,menu,subMenu,dataIn,key,result=0;
 	root=NULL;
 	do
 	{
-		printf("\tMENU - Press:\n1 to insert an element\n2 to search an element\n");  //To add delete and transversal codes.
+		printf("\tMENU - Press:\n1 to insert an element\n2 to search an element\n3 to find Min/Max element in the tree\n");  //To add delete and transversal codes.
 		scanf(" %d",&menu);
 		switch(menu)
 		{
@@ -36,6 +36,32 @@ int main(void)
 				else
 				{
 					printf("The data wasn't found.\n");
+				}
+			break;
+			case 3:
+				printf("Press 1 for Min,2 for Max element: ");
+				scanf(" %d",&subMenu);
+				if(subMenu==1)
+				{
+					struct binarySearchTree *temp = root;
+					while(temp->left!=NULL)
+					{
+						temp=temp->left;
+					}
+					printf("The Min element is: %d\n",temp->data);
+				}
+				else if(subMenu==2)
+				{
+					struct binarySearchTree *temp = root;
+					while(temp->right!=NULL)
+					{
+						temp=temp->right;
+					}
+					printf("The Max element is: %d\n",temp->data);
+				}
+				else
+				{
+					printf("Bad option provided.\n");
 				}
 			break;
 			default:
